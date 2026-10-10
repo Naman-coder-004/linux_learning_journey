@@ -19,6 +19,8 @@ I am learning linux step by step using ubunutu and documenting commands and conc
 
 6.NANO TEXT EDITOR BASICS
 
+7.SSH server
+
 
 #TOOLS I USE
 
@@ -34,7 +36,6 @@ I am learning linux step by step using ubunutu and documenting commands and conc
 
 6.NANO
 
-7.SSH server
 
 #MY GOAL
 
