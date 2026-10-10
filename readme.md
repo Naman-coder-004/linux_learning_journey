@@ -34,6 +34,8 @@ I am learning linux step by step using ubunutu and documenting commands and conc
 
 6.NANO
 
+7.SSH server
+
 #MY GOAL
 
 My goal is to build strong foundation in linux through consistent practice and documentation.
