@@ -36,11 +36,55 @@ I am learning linux step by step using ubunutu and documenting commands and conc
 
 6.NANO
 
+7.Linux File Permissions
+
+8.Linux Commands
+
+9.Linux Directory Structure
+
 
 #MY GOAL
 
 My goal is to build strong foundation in linux through consistent practice and documentation.
 
-I will keep updating this repository as I learn new concepts and commands.
+#Linux File Permissions
+- Read (`r`), Write (`w`), and Execute (`x`)
+- Owner, Group, and Others
+- Numeric Permission Method
+- Symbolic Permission Method
+- Changing Permissions Using `chmod`
+
+ #Linux Commands
+- `chmod` — Change file permissions
+- `stat` — Display file information
+- `free -h` — Display memory and swap usage
+
+  #Linux Directory Structure
+- `/bin`
+- `/sbin`
+- `/lib`
+- `/lib64`
+- `/boot`
+- `/dev`
+- `/etc`
+- `/home`
+- `/root`
+- `/mnt`
+- `/media`
+- `/opt`
+- `/tmp`
+- `/usr`
+- `/var`
+- `/run`
+- `/proc`
+- `/sys`
+- `/srv`
+- `/snap`
+- `/cdrom`
+- `/lost+found`
+
+  I will keep updating this repository as I learn new concepts and complete practical exercises.
+
+
 
 
