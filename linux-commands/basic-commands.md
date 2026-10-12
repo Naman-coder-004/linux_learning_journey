@@ -104,9 +104,9 @@ To view ip address.
 
 To take access of anothers ubuntu terminal.
      
-           FILES AND PERMISSIONS
+           #FILES AND PERMISSIONS
 
-The chmod Command
+#The chmod Command
 
 `chmod` stands for Change Mode.
 It is used to change the permissions of files and directories in Linux.
@@ -114,40 +114,61 @@ It is used to change the permissions of files and directories in Linux.
 There are two methods of changing permissions:
 
 1. Numeric Method
+
 2. Symbolic Method
    
-Numeric Method
+#Numeric Method
+
 #read=4
+
    #write=2
+   
    #execute=1
+   
    #no permissions=0
 
-EXAMPLE-
+#EXAMPLE-
+
 chmod 755 my.txt
+
 chmod 644 my.txt
+
 chmod 700 my.txt
 
-Symbolic Method
+#Symbolic Method
+
 u=user
+
 g=groups
+
 o=others
+
 a=all
 
-EXAMPLE-
+#EXAMPLE-
+
 chmod u+w my.txt
+
 chmod u+x my.txt
+
 chmod g+r my.txt
+
 chmod o-w my.txt
+
 chmod a+r my.txt
 
-- `+` Add permission
-- `-` Remove permission
-- `=` Set permissions
+ `+` Add permission
+ 
+ `-` Remove permission
+ 
+ `=` Set permissions
 
-  STAT Command
+  #STAT Command
+  
 Displays detailed information about a file.
 
-free -h Command
+#free -h Command
+
 Displays RAM and swap memory usage in a human-readable format.
 
 Linux Directory Structure
