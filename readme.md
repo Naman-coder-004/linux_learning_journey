@@ -21,6 +21,12 @@ I am learning linux step by step using ubunutu and documenting commands and conc
 
 7.SSH server
 
+8.Linux File Permissions
+
+9.Linux Commands
+
+10.Linux Directory Structure
+
 
 #TOOLS I USE
 
@@ -36,11 +42,6 @@ I am learning linux step by step using ubunutu and documenting commands and conc
 
 6.NANO
 
-7.Linux File Permissions
-
-8.Linux Commands
-
-9.Linux Directory Structure
 
 
 #MY GOAL
