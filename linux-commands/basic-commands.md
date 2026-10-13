@@ -171,7 +171,7 @@ Displays detailed information about a file.
 
 Displays RAM and swap memory usage in a human-readable format.
 
-Linux Directory Structure
+#Linux Directory Structure
 
 | Directory | Purpose |
 |---|---|
