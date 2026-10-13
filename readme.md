@@ -86,6 +86,36 @@ My goal is to build strong foundation in linux through consistent practice and d
 - '/media'
 - '/var'
 
+  #Topics Covered
+  
+- Linux file permissions
+  
+- sudo and elevated privileges
+  
+- Users and groups
+  
+- UID (User ID)
+  
+- Home directories
+  
+- Shells such as Bash, Zsh, and sh
+  
+- Creating users with and without home directories
+  
+- Assigning a shell and UID
+  
+- Setting passwords
+  
+- Switching between users
+  
+- Modifying user settings
+  
+- Locking and unlocking user accounts
+  
+- Viewing /etc/passwd and /etc/shadow
+  
+- Deleting users
+
   I will keep updating this repository as I learn new concepts and complete practical exercises.
 
 
