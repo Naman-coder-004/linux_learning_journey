@@ -83,6 +83,8 @@ My goal is to build strong foundation in linux through consistent practice and d
 - `/snap`
 - `/cdrom`
 - `/lost+found`
+- '/media'
+- '/var'
 
   I will keep updating this repository as I learn new concepts and complete practical exercises.
 
