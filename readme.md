@@ -116,6 +116,39 @@ My goal is to build strong foundation in linux through consistent practice and d
   
 - Deleting users
 
+  ## 📚 Topics Covered
+
+###  Managing Groups
+
+- Creating a new group
+- Adding users to groups
+- Checking group membership
+- Viewing all groups
+- Managing group permissions
+
+### File Ownership and Permissions
+
+- Changing the group ownership of a file or directory
+- Changing the owner of a file or directory
+- Understanding sudo privileges
+
+###  Important Linux Commands
+- `groupadd` - Create a new group
+- `usermod` - Modify user account settings
+- `getent` - Retrieve group information
+- `chgrp` - Change group ownership
+- `chown` - Change file or directory ownership
+- `visudo` - Safely edit sudoers configuration
+- `which` - Find the path of an executable command
+- `whereis` - Locate command binaries, source files, and manual pages
+
+## 💻 Environment
+
+- Operating System: Ubuntu Linux
+- Virtualization Software: Oracle VirtualBox
+- Learning Method: Hands-on practice and command-line exercises
+
+
   I will keep updating this repository as I learn new concepts and complete practical exercises.
 
 
