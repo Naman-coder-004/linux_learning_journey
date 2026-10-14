@@ -1,112 +1,112 @@
-#LINUX BASIC COMMANDS
+# LINUX BASIC COMMANDS
 
 These are the basic commands I have learned using my linux journey.
 
-#pwd
+# pwd
 
 Displays the current working directory.
 
-#ls
+# ls
 
 Lists all the files and directories in current directory.
 
-#ls -a
+# ls -a
 
 Lists all files, including hidden files.
 
-#ls -l
+# ls -l
 
 Lists all files and directories with permissions.
 
-#mkdir
+# mkdir
 
 To make a directory.
 
-#rmdir
+# rmdir
 
 To delete a directory.
 
-#rm -rf
+# rm -rf
 
 To forcibly delete a directory and file.
 
-#cd
+# cd
 
 To enter a directory.
 
-#cd ..
+# cd ..
 
 To cache back one directory.
 
-#whoami
+# whoami
 
 To know about the current user.
 
-#touch
+# touch
 
 To create a empty file.
 
-#cat
+# cat
 
 To read data in a file.
 
-#head
+# head
 
 To print top 10 lines of given file.
 
-#tail
+# tail
 
 To print bottom 10 lines of given file.
 
-#cp
+# cp
 
 To copy file/folder from one file/folder to another.
 
-#mv
+# mv
 
 To move file/folder from one file/folder to another.
 
 To rename file/folder.
 
-#sudo -i
+# sudo -i
 
 To enter in root user.
 
-#less
+# less
 
 To read large file one page at a time.It allows to move both forward and backward.
 
-#more
+# more
 
 To read large file one page at a time.It allows to move forward only.
 
-#sudo systemctl status ssh
+# sudo systemctl status ssh
 
 To check ssh service.
 
-#sudo systemctl start ssh
+# sudo systemctl start ssh
 
 To start ssh service.
 
-#sudo systemctl stop ssh
+# sudo systemctl stop ssh
 
 To stop ssh service.
 
-#sudo apt install openssh-sever -y
+# sudo apt install openssh-sever -y
 
 To install ssh server.
 
-#ifconfig
+# ifconfig
 
 To view ip address.
 
-#ssh username@ipaddress
+# ssh username@ipaddress
 
 To take access of anothers ubuntu terminal.
      
-           #FILES AND PERMISSIONS
+           # FILES AND PERMISSIONS
 
-#The chmod Command
+# The chmod Command
 
 `chmod` stands for Change Mode.
 It is used to change the permissions of files and directories in Linux.
@@ -117,7 +117,7 @@ There are two methods of changing permissions:
 
 2. Symbolic Method
    
-#Numeric Method
+# Numeric Method
 
 #read=4
 
@@ -127,7 +127,7 @@ There are two methods of changing permissions:
    
    #no permissions=0
 
-#EXAMPLE-
+# EXAMPLE-
 
 chmod 755 my.txt
 
@@ -135,7 +135,7 @@ chmod 644 my.txt
 
 chmod 700 my.txt
 
-#Symbolic Method
+# Symbolic Method
 
 u=user
 
@@ -145,7 +145,7 @@ o=others
 
 a=all
 
-#EXAMPLE-
+# EXAMPLE-
 
 chmod u+w my.txt
 
@@ -163,15 +163,15 @@ chmod a+r my.txt
  
  `=` Set permissions
 
-  #STAT Command
+  # STAT Command
   
 Displays detailed information about a file.
 
-#free -h Command
+# free -h Command
 
 Displays RAM and swap memory usage in a human-readable format.
 
-#Linux Directory Structure
+# Linux Directory Structure
 
 | Directory | Purpose |
 |---|---|
