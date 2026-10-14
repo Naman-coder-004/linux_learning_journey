@@ -1,11 +1,11 @@
 
-#LINUX LEARNING JOURNEY
+# LINUX LEARNING JOURNEY
 
 Welcome to my linux learning journey!
 
 I am learning linux step by step using ubunutu and documenting commands and concepts I learn along the way.
 
-#TOPICS COVERED
+# TOPICS COVERED
 
 1.BASIC LINUX COMMANDS
  
@@ -28,7 +28,7 @@ I am learning linux step by step using ubunutu and documenting commands and conc
 10.Linux Directory Structure
 
 
-#TOOLS I USE
+# TOOLS I USE
 
 1.UBUNTU TERMINAL
 
@@ -44,23 +44,23 @@ I am learning linux step by step using ubunutu and documenting commands and conc
 
 
 
-#MY GOAL
+# MY GOAL
 
 My goal is to build strong foundation in linux through consistent practice and documentation.
 
-#Linux File Permissions
+# Linux File Permissions
 - Read (`r`), Write (`w`), and Execute (`x`)
 - Owner, Group, and Others
 - Numeric Permission Method
 - Symbolic Permission Method
 - Changing Permissions Using `chmod`
 
- #Linux Commands
+ # Linux Commands
 - `chmod` — Change file permissions
 - `stat` — Display file information
 - `free -h` — Display memory and swap usage
 
-  #Linux Directory Structure
+  # Linux Directory Structure
 - `/bin`
 - `/sbin`
 - `/lib`
@@ -86,7 +86,7 @@ My goal is to build strong foundation in linux through consistent practice and d
 - '/media'
 - '/var'
 
-  #Topics Covered
+  # Topics Covered
   
 - Linux file permissions
   
