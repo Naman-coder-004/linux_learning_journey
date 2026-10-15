@@ -158,19 +158,11 @@ and helps us host websites.
 It receives requests from users' web browsers and sends
 web pages back to them.
 
-**Commands I Practiced:**
+## Install Apache
 
-#Install Apache:
+## Check Apache status
 
-sudo apt install apache2 -y
-
-## Check Apache status:
-
-sudo systemctl status apache2
-
-## Navigate to Apache's default website directory:
-
-cd /var/www/html
+## Navigate to Apache's default website directory
 
 ## Editing the Default Webpage
 
