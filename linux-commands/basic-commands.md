@@ -438,7 +438,6 @@ Changes the group associated with a file or directory.
 sudo chgrp groupname file_or_directory
 
 
-
 ## Changing the Owner of a File or Directory
 
 Command: `chown`
@@ -461,6 +460,34 @@ Displays the path of an executable command found through the directories listed 
 Command: `whereis`
 
 Helps locate the binary executable, source files, and manual pages associated with a command.
+
+## Apache Web Server
+
+## Install Apache:
+
+sudo apt install apache2 -y
+
+## Check Apache status:
+
+sudo systemctl status apache2
+
+## Navigate to the default website directory:
+
+cd /var/www/html
+
+### 3. Editing the Default Webpage
+
+## Using Nano:
+
+sudo nano /var/www/html/index.html
+
+
+## Using Vim:
+
+sudo vim /var/www/html/index.html
+
+
+
 
 
 
