@@ -475,7 +475,7 @@ sudo systemctl status apache2
 
 cd /var/www/html
 
-### 3. Editing the Default Webpage
+###  Editing the Default Webpage
 
 ## Using Nano:
 
