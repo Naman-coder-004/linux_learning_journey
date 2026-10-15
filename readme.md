@@ -148,6 +148,37 @@ My goal is to build strong foundation in linux through consistent practice and d
 - Virtualization Software: Oracle VirtualBox
 - Learning Method: Hands-on practice and command-line exercises
 
+  ## Apache Web Server
+
+## What is Apache Server?
+
+Apache HTTP Server is software that runs on a Linux computer
+and helps us host websites.
+
+It receives requests from users' web browsers and sends
+web pages back to them.
+
+**Commands I Practiced:**
+
+#Install Apache:
+
+sudo apt install apache2 -y
+
+## Check Apache status:
+
+sudo systemctl status apache2
+
+## Navigate to Apache's default website directory:
+
+cd /var/www/html
+
+## Editing the Default Webpage
+
+I learned how to edit Apache's default webpage using
+the Nano and Vim text editors.
+
+These editors allow me to modify the HTML code and
+customize the webpage hosted by Apache.
 
   I will keep updating this repository as I learn new concepts and complete practical exercises.
 
