@@ -148,9 +148,9 @@ My goal is to build strong foundation in linux through consistent practice and d
 - Virtualization Software: Oracle VirtualBox
 - Learning Method: Hands-on practice and command-line exercises
 
-  ## Apache Web Server
+  ## 📚 Topics Covered
 
-## What is Apache Server?
+  ## Apache Web Server
 
 Apache HTTP Server is software that runs on a Linux computer
 and helps us host websites.
