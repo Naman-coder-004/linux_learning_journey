@@ -486,8 +486,50 @@ sudo nano /var/www/html/index.html
 
 sudo vim /var/www/html/index.html
 
+# Compressing and Uncompressing Files
 
+# To install ZIP
+sudo apt install zip -y
 
+# To ZIP a file
+gzip filename
+
+# To UNZIP a file
+gunzip filename.gz
+
+# Another method to ZIP a file
+zip abc.zip abc.txt
+
+# Another method to UNZIP a file
+unzip abc.zip abc.txt
+
+# TAR Command
+
+# To combine multiple files into a single archive
+tar -cvf my.tar my.txt hello.txt
+
+# To extract files from a TAR archive
+tar -xvf my.tar
+
+# Output Redirection
+
+It is used to send the output of a command to a file instead of displaying it on the terminal.
+
+### Example
+
+ls >> name.txt
+
+# >>
+Previous data will not be deleted. New output will be added to the end of the file.
+# >
+Previous data will be deleted and replaced with new output.
+ls > name.txt
+
+## To Show Errors in a File
+ls -asd 2>> name.txt
+
+## To Show Errors and Output
+cat abc.txt img.txt &> my.txt
 
 
 
