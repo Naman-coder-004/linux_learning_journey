@@ -172,6 +172,26 @@ the Nano and Vim text editors.
 These editors allow me to modify the HTML code and
 customize the webpage hosted by Apache.
 
+## 📚 Today's Learning 
+
+Today, I learned about file archiving, file compression, and output redirection in Linux.
+
+###  File Archiving Using the tar Command
+- Combining multiple files into a single archive.
+- Creating a TAR archive.
+- Extracting files from a TAR archive.
+
+###  File Compression Using ZIP
+- Installing the ZIP utility.
+- Compressing files into a ZIP archive.
+- Extracting files from a ZIP archive.
+
+###  Output Redirection
+- Sending command output to a file.
+- Understanding `>` and `>>`.
+- Redirecting errors using `2>`.
+- Redirecting both output and errors using `&>`.
+
   I will keep updating this repository as I learn new concepts and complete practical exercises.
 
 
