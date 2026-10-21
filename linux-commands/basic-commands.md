@@ -531,6 +531,52 @@ ls -asd 2>> name.txt
 ## To Show Errors and Output
 cat abc.txt img.txt &> my.txt
 
+## What is a Cron Job?
+
+A Cron Job is a Linux feature that automatically runs commands or scripts at a scheduled time.
+
+
+ ## Check Cron Service Status
+
+sudo systemctl status cron
+
+# Use: Checks whether the Cron service is active or inactive.
+
+## List Cron Jobs
+
+crontab -l
+
+# Use: Displays the cron jobs scheduled for the current user.
+
+## Create or Edit Cron Jobs
+
+crontab -e
+
+# Use: Opens the editor to create or modify scheduled cron jobs.
+
+## Remove Cron Jobs
+
+crontab -r
+
+# Use: Removes all scheduled cron jobs belonging to the current user.
+
+## Cron Job Scheduling Format
+
+* * * * * command
+
+# The five fields represent:
+
+Minute
+
+Hour
+
+Day of the month
+
+Month
+
+Day of the week
+
+
 
 
 
