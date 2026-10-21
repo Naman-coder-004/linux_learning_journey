@@ -196,23 +196,17 @@ Today, I learned about file archiving, file compression, and output redirection 
 
   A Cron Job is a Linux feature that automatically runs a command or task at a scheduled time.
 
-## Commands Practiced
+## TOPICS COVERED
 
-## Check the status of the Cron service
+# Check the status of the Cron service
 
-sudo systemctl status cron
+# List the current user's scheduled cron job
 
-## List the current user's scheduled cron jobs
+# Create or edit scheduled cron job
 
-crontab -l
-
-## Create or edit scheduled cron jobs
-
-crontab -e
-
- ## Remove all cron jobs for the current user
+ # Remove all cron jobs for the current user
  
-crontab -r 
+
 
   I will keep updating this repository as I learn new concepts and complete practical exercises.
 
