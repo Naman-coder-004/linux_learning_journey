@@ -192,6 +192,28 @@ Today, I learned about file archiving, file compression, and output redirection 
 - Redirecting errors using `2>`.
 - Redirecting both output and errors using `&>`.
 
+## CRONJOB
+
+  A Cron Job is a Linux feature that automatically runs a command or task at a scheduled time.
+
+## Commands Practiced
+
+## Check the status of the Cron service
+
+sudo systemctl status cron
+
+## List the current user's scheduled cron jobs
+
+crontab -l
+
+## Create or edit scheduled cron jobs
+
+crontab -e
+
+ ## Remove all cron jobs for the current user
+ 
+crontab -r 
+
   I will keep updating this repository as I learn new concepts and complete practical exercises.
 
 
