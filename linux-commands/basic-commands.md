@@ -560,21 +560,6 @@ crontab -r
 
 # Use: Removes all scheduled cron jobs belonging to the current user.
 
-## Cron Job Scheduling Format
-
-* * * * * command
-
-# The five fields represent:
-
-Minute
-
-Hour
-
-Day of the month
-
-Month
-
-Day of the week
 
 
 
