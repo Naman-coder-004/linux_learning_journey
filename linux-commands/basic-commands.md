@@ -561,6 +561,149 @@ crontab -r
 # Use: Removes all scheduled cron jobs belonging to the current user.
 
 
+## What Is a Process?
+
+- A process is a program that is currently running on a computer.
+  
+
+## Types of Processes
+
+# Foreground Process
+
+- A foreground process runs directly in the terminal. The terminal normally waits for the command to finish before accepting another command.
+
+# Example:
+
+sleep 50
+
+- This command waits for 50 seconds and keeps the terminal occupied until it finishes. 
+
+# Background Process
+
+- A background process runs without keeping the terminal occupied, allowing you to enter other commands.
+
+# Example:
+
+sleep 50 &
+
+
+## Viewing Running Processes
+
+ps
+
+- The ps command displays information about processes.
+
+ps
+
+## Common columns:
+
+- PID: Process ID, a unique identifier for a process.
+
+- TTY: Terminal associated with the process.
+
+- TIME: CPU time used by the process.
+
+- CMD: Command or program name.
+
+## ps aux
+
+- Displays a detailed list of processes running on the system.
+
+
+## ps -ef
+
+- Displays processes in a full-format listing.
+
+
+## ps -l
+
+- Displays processes in a long-format listing, including additional information such as process state and priority.
+
+
+## top
+
+- Displays running processes and updates the information continuously.
+
+
+## htop
+
+- Provides an interactive view of processes and system resource usage.
+
+
+-If it is not installed on Ubuntu, install it using:
+
+sudo apt update
+sudo apt install htop
+
+Press q to quit.
+
+## pgrep
+
+- Searches for process IDs by process name or another supported pattern.
+
+# Example:
+
+pgrep sleep
+
+- This displays the PIDs of matching sleep processes.
+
+
+## Killing a Process
+
+kill
+
+- The kill command sends a signal to a process, usually identified by its PID.
+
+kill PID
+
+# Example:
+
+kill 1234
+
+
+
+# kill -9
+
+- Forcefully terminates a process using SIGKILL.
+
+kill -9 PID
+
+
+## killall
+
+Terminates processes by name rather than by PID.
+
+killall process_name
+
+Example:
+
+killall sleep
+
+
+## Process Priority — nice 
+
+- Linux uses process scheduling priorities to decide how CPU time is shared between runnable processes.
+
+# Nice Value
+
+- The nice value ranges from -20 to +19:
+
+
+-A lower nice value generally gives a process a greater scheduling priority relative to other processes, while a higher nice value makes it more willing to yield CPU time.
+
+# nice
+
+- The nice command starts a program with a specified nice value.
+
+# Syntax:
+
+nice -n VALUE command
+
+# Example:
+
+nice -n 10 sleep 200
+
+
 
 
 
