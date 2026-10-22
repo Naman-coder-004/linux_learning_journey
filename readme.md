@@ -205,7 +205,18 @@ Today, I learned about file archiving, file compression, and output redirection 
 # Create or edit scheduled cron job
 
  # Remove all cron jobs for the current user
- 
+
+## 📚 Topics I Have Learned
+
+# Process Management
+
+# Foreground and Background Processes
+
+# Viewing and Monitoring Processes
+
+# Killing and Managing Processes
+
+# Process Priority 
 
 
   I will keep updating this repository as I learn new concepts and complete practical exercises.
