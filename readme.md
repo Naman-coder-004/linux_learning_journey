@@ -198,25 +198,25 @@ Today, I learned about file archiving, file compression, and output redirection 
 
 ## TOPICS COVERED
 
-# Check the status of the Cron service
+- Check the status of the Cron service
 
-# List the current user's scheduled cron job
+- List the current user's scheduled cron job
 
-# Create or edit scheduled cron job
+- Create or edit scheduled cron job
 
- # Remove all cron jobs for the current user
+ - Remove all cron jobs for the current user
 
 ## 📚 Topics I Have Learned
 
-# Process Management
+- Process Management
 
-# Foreground and Background Processes
+- Foreground and Background Processes
 
-# Viewing and Monitoring Processes
+- Viewing and Monitoring Processes
 
-# Killing and Managing Processes
+- Killing and Managing Processes
 
-# Process Priority 
+- Process Priority 
 
 
   I will keep updating this repository as I learn new concepts and complete practical exercises.
