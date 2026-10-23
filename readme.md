@@ -216,7 +216,39 @@ Today, I learned about file archiving, file compression, and output redirection 
 
 - Killing and Managing Processes
 
-- Process Priority 
+- Process Priority
+
+  ## 📚 Topics Learned
+
+## Disk Management
+
+- Checking available and used disk space
+
+- Understanding disk usage and inodes
+
+- Viewing disks and partitions
+
+## Mounting and File Systems
+
+- Mounting and unmounting storage devices
+
+-Understanding Linux file systems: ext3, ext4, XFS, and Btrfs
+
+## Linux Networking
+
+- Viewing IP addresses and network interfaces
+
+- Testing network connectivity using ping
+
+- Tracing network routes using traceroute
+
+## Package Management
+
+- Understanding package managers
+
+- Installing, updating, and removing software
+
+- Learning about apt,  dnf, and yum
 
 
   I will keep updating this repository as I learn new concepts and complete practical exercises.
