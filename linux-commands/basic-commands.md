@@ -703,6 +703,107 @@ nice -n VALUE command
 
 nice -n 10 sleep 200
 
+## Disk Management
+
+- Disk management involves checking storage space, monitoring disk usage, viewing partitions, and managing storage devices.
+
+# df — Disk Free
+
+- Displays available and used disk space for mounted file systems.
+
+
+# df -h — Human-Readable Disk Space
+
+- Displays disk space in an easy-to-read format, such as KB, MB, and GB.
+
+# df -T — File System Type
+
+-Displays the file system type along with disk usage.
+
+# df -i — Inode Usage
+
+- Displays inode usage for mounted file systems. Inodes store information about files and directories.
+
+# df -h / — Root File System Space
+
+- Displays disk space for the file system containing the root directory (/).
+
+# du — Disk Usage
+
+- Shows how much disk space files and directories use.
+
+
+lsblk — List Block Devices
+
+Displays storage devices and their partitions, such as disks and USB drives.
+
+# lsblk
+
+- To display file system information as well:
+
+lsblk -f
+
+## Mounting and Unmounting
+
+# Mounting
+
+- Mounting means making a storage device or file system accessible at a directory called a mount point.
+
+
+# Unmounting
+
+- Unmounting detaches a mounted file system so it can be safely disconnected when appropriate.
+
+##  Linux File Systems
+
+-A file system organizes and manages files and directories on a storage device.
+
+# ext3
+
+-An older Linux file system.
+
+# ext4
+
+- A widely used Linux file system.
+
+- Supports large files and volumes.
+
+
+# XFS
+
+-  High-performance
+
+- Suitable for large files and large storage systems.
+
+# Btrfs
+
+- A modern Linux file system.
+
+Supports features such as snapshots.
+
+##  Networking in Linux
+
+# ifconfig 
+
+- Displays or configures network interfaces on systems where the utility is installed.
+
+# ip addr 
+
+- Displays network interfaces and their IP addresses.
+
+
+# ping 
+
+- Checks whether a destination responds over the network and displays response times.
+
+ping google.com
+
+
+# traceroute 
+
+Shows the network hops packets take toward a destination, where intermediate routers respond.
+
+traceroute google.com
 
 
 
