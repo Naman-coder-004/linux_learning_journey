@@ -232,7 +232,7 @@ Today, I learned about file archiving, file compression, and output redirection 
 
 - Mounting and unmounting storage devices
 
--Understanding Linux file systems: ext3, ext4, XFS, and Btrfs
+- Understanding Linux file systems: ext3, ext4, XFS, and Btrfs
 
 ## Linux Networking
 
