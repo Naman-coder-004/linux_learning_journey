@@ -250,6 +250,17 @@ Today, I learned about file archiving, file compression, and output redirection 
 
 - Learning about apt,  dnf, and yum
 
+ ## Bash Shell Scripting
+ 
+- Introduction to shell scripting
+- Comments in Bash scripts
+- Variables in Bash scripting
+- Printing variable values using `echo`
+- Using curly braces with variables
+- Special variables: `$0`, `$1`, and `$2`
+- Creating and executing `.sh` files
+
+
 
   I will keep updating this repository as I learn new concepts and complete practical exercises.
 
