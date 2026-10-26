@@ -805,6 +805,52 @@ Shows the network hops packets take toward a destination, where intermediate rou
 
 traceroute google.com
 
+## Comments in Bash Scripting
+
+- Comments are used to explain code. They are ignored by Bash when the script runs.
+
+The `#` symbol is used to write a single-line comment.
+
+
+##  Variables in Bash Scripting
+
+A variable is a container used to store data.
+
+### Example
+
+name="Naman"
+echo $name
+
+
+Output:
+
+Naman
+
+
+### Printing a Sentence Using a Variable
+
+- You can use curly braces to clearly identify a variable inside a string.
+
+  # Example
+
+name="Naman"
+echo "My name is ${name}Sharma "
+
+Output:
+
+My name is NamanSharma
+
+
+##  Special Variables in Bash
+
+- Bash provides special variables that store information about a script and its arguments.
+
+| Variable | Function |
+|---|---|
+| `$0` | Stores the name or path used to run the script. |
+| `$1` | Stores the first argument passed to the script. |
+| `$2` | Stores the second argument passed to the script. |
+
 
 
 
