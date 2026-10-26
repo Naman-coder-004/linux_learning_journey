@@ -805,6 +805,10 @@ Shows the network hops packets take toward a destination, where intermediate rou
 
 traceroute google.com
 
+## Bash Scripting
+
+- Bash scripting is the process of writing multiple Linux commands in a file and executing them together using the Bash shell. It is used to automate repetitive tasks and simplify system administration.
+
 ## Comments in Bash Scripting
 
 - Comments are used to explain code. They are ignored by Bash when the script runs.
