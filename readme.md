@@ -260,6 +260,11 @@ Today, I learned about file archiving, file compression, and output redirection 
 - Special variables: `$0`, `$1`, and `$2`
 - Creating and executing `.sh` files
 
+  ## Topics Covered
+- Arithmetic operators in Bash
+- if and if-else statements
+- Comparison operators and conditions
+
 
 
   I will keep updating this repository as I learn new concepts and complete practical exercises.
