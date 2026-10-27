@@ -901,8 +901,8 @@ fi
 # Comparison Operators
 
 - Comparison operators compare values.
-
-  | Operator | Meaning | Example |
+  
+| Operator | Meaning | Example |
 |---|---|---|
 | `-eq` | Equal to | `[ "$a" -eq "$b" ]` |
 | `-ne` | Not equal to | `[ "$a" -ne "$b" ]` |
@@ -910,6 +910,7 @@ fi
 | `-lt` | Less than | `[ "$a" -lt "$b" ]` |
 | `-ge` | Greater than or equal to | `[ "$a" -ge "$b" ]` |
 | `-le` | Less than or equal to | `[ "$a" -le "$b" ]` |
+
 
 ## Symbol Operators in Bash Arithmetic
 
