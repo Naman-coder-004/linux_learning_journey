@@ -855,9 +855,72 @@ My name is NamanSharma
 | `$1` | Stores the first argument passed to the script. |
 | `$2` | Stores the second argument passed to the script. |
 
+## Bash Operators and Conditions
+- These notes cover basic arithmetic operators, if statements, if-else statements, and comparison operators in Bash scripting.
+# Arithmetic Operators in Bash
+- Arithmetic operators perform calculations on numbers.
+- Operator	Meaning
++	Addition
+-	Subtraction
+*	Multiplication
+/	Division
+%	Remainder (modulus)
 
+# EXAMPLE
 
+a=10
+b=2
 
+echo "Addition: $((a + b))"
+echo "Subtraction: $((a - b))"
+echo "Multiplication: $((a * b))"
+echo "Division: $((a / b))"
+echo "Remainder: $((a % b))"
+
+# if Statement
+- An if statement runs commands only when a condition is true.
+  
+# syntax
+  if [ condition ]; then
+    # commands run if the condition is true
+fi
+
+# if-else Statement
+- An if-else statement chooses between two paths:
+- If the condition is true, the then block runs.
+- If the condition is false, the else block runs.
+
+# syntax
+
+if [ condition ]; then
+    # commands if true
+else
+    # commands if false
+fi
+
+# Comparison Operators
+
+- Comparison operators compare values.
+
+  | Operator | Meaning | Example |
+|---|---|---|
+| `-eq` | Equal to | `[ "$a" -eq "$b" ]` |
+| `-ne` | Not equal to | `[ "$a" -ne "$b" ]` |
+| `-gt` | Greater than | `[ "$a" -gt "$b" ]` |
+| `-lt` | Less than | `[ "$a" -lt "$b" ]` |
+| `-ge` | Greater than or equal to | `[ "$a" -ge "$b" ]` |
+| `-le` | Less than or equal to | `[ "$a" -le "$b" ]` |
+
+## Symbol Operators in Bash Arithmetic
+
+| Operator | Meaning |
+|---|---|
+| `==` | Equal to |
+| `!=` | Not equal to |
+| `>` | Greater than |
+| `<` | Less than |
+| `>=` | Greater than or equal to |
+| `<=` | Less than or equal to |
 
 	
 
