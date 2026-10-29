@@ -265,6 +265,10 @@ Today, I learned about file archiving, file compression, and output redirection 
 - if and if-else statements
 - Comparison operators and conditions
 
+  ## TOPICS COVERED
+  - case statements
+  - for loop
+
 
 
   I will keep updating this repository as I learn new concepts and complete practical exercises.
