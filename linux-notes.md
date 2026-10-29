@@ -923,7 +923,127 @@ fi
 | `>=` | Greater than or equal to |
 | `<=` | Less than or equal to |
 
-	
+
+## Topic : For Loop in Bash Scripting
+
+### Definition
+A `for` loop executes a set of commands repeatedly for each item in a specified list.
+
+### Syntax
 
 
- 
+for i in {1..5}
+do
+    echo "$i"
+done
+
+
+### Explanation
+
+- `for i in {1..5}` — assigns the numbers 1 to 5 to variable `i`, one at a time.
+- `do` — begins the commands to execute.
+- `echo "$i"` — prints the current value of `i`.
+- `done` — ends the loop.
+
+### Output
+
+
+1
+2
+3
+4
+5
+
+
+## Topic : Case Statement in Bash Scripting
+
+### Definition
+A `case` statement is a conditional statement that selects commands based on the value of a variable.
+
+### Syntax
+
+
+case $choice in
+    pattern1)
+        commands
+        ;;
+    pattern2)
+        commands
+        ;;
+    *)
+        commands
+        ;;
+esac
+
+
+### Important Points
+
+- `case` starts the statement.
+- `$choice` is the variable being checked.
+- Each pattern represents a possible matching value.
+- `;;` ends a matching case.
+- `*)` is the default pattern.
+- `esac` ends the statement.
+
+### Example: Check a Day
+
+```bash
+echo "Enter a day:"
+read day
+
+case $day in
+    Monday)
+        echo "Start of the working week"
+        ;;
+    Friday)
+        echo "Last working day of the week"
+        ;;
+    Sunday)
+        echo "It's a holiday"
+        ;;
+    *)
+        echo "It's another day"
+        ;;
+esac
+
+
+##  Example: Calculator Using Case
+
+
+echo "Enter first number:"
+read a
+
+echo "Enter second number:"
+read b
+
+echo "Enter operator (+, -, *, /):"
+read op
+
+case $op in
+    +)
+        echo "Result: $((a + b))"
+        ;;
+    -)
+        echo "Result: $((a - b))"
+        ;;
+    \*)
+        echo "Result: $((a * b))"
+        ;;
+    /)
+        echo "Result: $((a / b))"
+        ;;
+    *)
+        echo "Invalid operator"
+        ;;
+esac
+
+
+### What I Learned Today
+
+1. How to use a `for` loop in Bash.
+2. How to print a sequence of numbers.
+3. How to use a `case` statement.
+4. How to handle different inputs using patterns.
+5. How to build a simple calculator using Bash.
+
+
