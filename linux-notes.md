@@ -1046,4 +1046,8 @@ esac
 4. How to handle different inputs using patterns.
 5. How to build a simple calculator using Bash.
 
+##  Nested Loop
+
+- A nested loop is a loop inside another loop. The inner loop executes completely for every single iteration of the outer loop.
+
 
