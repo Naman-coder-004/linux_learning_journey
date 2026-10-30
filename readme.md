@@ -268,6 +268,11 @@ Today, I learned about file archiving, file compression, and output redirection 
   ## TOPICS COVERED
   - case statements
   - for loop
+ 
+ 
+## TOPICS COVERED
+
+- Nested Loop
 
 
 
