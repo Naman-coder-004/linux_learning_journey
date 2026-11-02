@@ -274,6 +274,9 @@ Today, I learned about file archiving, file compression, and output redirection 
 
 - Nested Loop
 
+   ## TOPICS COVERED
+  - do while loop
+
 
 
   I will keep updating this repository as I learn new concepts and complete practical exercises.
