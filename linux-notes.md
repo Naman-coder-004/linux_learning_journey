@@ -1050,4 +1050,231 @@ esac
 
 - A nested loop is a loop inside another loop. The inner loop executes completely for every single iteration of the outer loop.
 
+# Bash Scripting – Arrays and Until Loop
+
+##  1. Arrays in Bash
+
+An array in Bash is a variable that can store multiple values using a single variable name.
+
+Instead of creating separate variables, we can store multiple values inside one array.
+
+### 1.1 Declare an Array
+
+**Syntax:**
+
+
+array_name=(value1 value2 value3)
+
+
+**Example:**
+
+
+fruits=("Apple" "Mango" "Banana" "Orange")
+
+
+### 1.2 Access an Array Element
+
+To access a particular element, use its index number.
+
+**Syntax:**
+
+
+${array_name[index]}
+
+
+**Example:**
+
+
+echo "${fruits[0]}"
+
+
+Output:
+
+Apple
+
+
+Note: Array indexing starts from 0.
+
+### 1.3 Print All Array Elements
+
+To print all elements of an array:
+
+
+echo "${array_name[@]}"
+
+
+**Example:**
+
+
+echo "${fruits[@]}"
+
+
+Output:
+
+Apple Mango Banana Orange
+
+
+### 1.4 Print Array Length
+
+To find the total number of elements in an array:
+
+
+echo "${#array_name[@]}"
+
+
+**Example:**
+
+
+echo "${#fruits[@]}"
+
+
+Output:
+
+4
+
+
+### 1.5 Print All Array Indexes
+
+To display all indexes of an array:
+
+
+echo "${!array_name[@]}"
+
+
+**Example:**
+
+
+echo "${!fruits[@]}"
+
+
+Output:
+
+0 1 2 3
+
+
+##  2. Array Operations
+
+### 2.1 Add an Element
+
+To add a new element at the end of an array:
+
+
+array_name+=(new_value)
+
+
+**Example:**
+
+
+fruits+=("Grapes")
+echo "${fruits[@]}"
+
+
+### 2.2 Update an Element
+
+To update an existing element using its index:
+
+
+array_name[index]=new_value
+
+
+**Example:**
+
+
+fruits[1]="Pineapple"
+echo "${fruits[@]}"
+
+
+### 2.3 Delete an Element
+
+To delete a particular element:
+
+
+unset array_name[index]
+
+
+**Example:**
+
+
+unset fruits[2]
+
+
+### 2.4 Delete the Entire Array
+
+To delete the complete array:
+
+
+unset array_name
+
+
+**Example:**
+
+
+unset fruits
+
+
+## 3. Until Loop in Bash
+
+The `until` loop is used to execute a block of statements repeatedly until a specified condition becomes true.
+
+It works almost opposite to the `while` loop.
+
+- While loop: Executes while the condition is true.
+- Until loop: Executes until the condition becomes true.
+
+### 3.1 Syntax
+
+
+until [ condition ]
+do
+    # Statements to execute
+done
+
+
+### 3.2 Example: Print Numbers from 1 to 5
+
+
+#!/bin/bash
+
+i=1
+
+until [ $i -gt 5 ]
+do
+    echo $i
+    ((i++))
+done
+
+
+**Output:**
+
+
+1
+2
+3
+4
+5
+
+
+### 3.3 How It Works
+
+1. The variable `i` starts with the value 1.
+2. The condition checks whether `i` is greater than 5.
+3. If the condition is false, the loop executes.
+4. The number is printed.
+5. The value of `i` increases by 1.
+6. When `i` becomes 6, the condition becomes true and the loop stops.
+
+## 4. Important Points to Remember
+
+| Command | Purpose |
+|---|---|
+| `array=(values)` | Declare an array |
+| `${array[index]}` | Access an element |
+| `${array[@]}` | Print all elements |
+| `${#array[@]}` | Find array length |
+| `${!array[@]}` | Print all indexes |
+| `array+=(value)` | Add an element |
+| `array[index]=value` | Update an element |
+| `unset array[index]` | Delete an element |
+| `unset array` | Delete entire array |
+
 
