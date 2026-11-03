@@ -276,6 +276,26 @@ Today, I learned about file archiving, file compression, and output redirection 
 
    ## TOPICS COVERED
   - do while loop
+ 
+     ## TOPICS COVERED
+    
+    - Introduction to Arrays in Bash
+
+- Declaring and accessing array elements
+
+- Printing all array elements
+
+- Finding array length
+
+- Printing array indexes
+
+- Adding, updating, and deleting array elements
+
+- Understanding the Until Loop
+
+- Until Loop syntax and execution
+
+
 
 
 
