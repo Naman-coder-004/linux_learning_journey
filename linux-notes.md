@@ -1278,3 +1278,188 @@ done
 | `unset array` | Delete entire array |
 
 
+# Bash Scripting – Functions, Parameters, Break and Continue
+
+## 1. Functions in Bash Scripting
+
+###  Definition
+A function is a block of code that performs a particular task. It helps us avoid writing the same code repeatedly.
+
+We can create a function once and call it whenever needed.
+
+### Syntax
+
+function_name() {
+    # commands
+}
+
+
+### Example: Simple Function
+
+
+#!/bin/bash
+
+greet() {
+    echo "Hello"
+}
+
+greet
+
+
+**Output:**
+Hello
+
+
+### Explanation
+- `greet()` defines a function.
+- `{ }` contains the function body.
+- `echo` displays a message.
+- `greet` calls the function.
+
+
+## 2. Functions with Parameters (Arguments)
+
+### Definition
+We can pass arguments to a function when calling it. These arguments are accessed using special positional parameters.
+
+| Parameter | Meaning |
+|---|---|
+| `$1` | First argument |
+| `$2` | Second argument |
+| `$3` | Third argument |
+| `$@` | All arguments |
+| `$#` | Number of arguments |
+
+### Example: Addition Using Function
+
+
+#!/bin/bash
+
+add() {
+    c=$(($1 + $2))
+    echo "$c"
+}
+
+add 10 20
+
+
+**Output:**
+30
+
+
+### Explanation
+- `add()` defines the function.
+- `$1` receives the first argument (10).
+- `$2` receives the second argument (20).
+- `$(( ))` performs arithmetic calculations.
+- `add 10 20` calls the function with two arguments.
+
+---
+
+## 3. Break Statement
+
+### Definition
+The `break` statement is used to immediately terminate a loop when a specified condition becomes true.
+
+After executing `break`, control moves outside the loop.
+
+### Syntax
+
+if [ condition ]
+then
+    break
+fi
+
+
+### Example
+
+
+#!/bin/bash
+
+for i in {1..10}
+do
+    if [ "$i" -eq 6 ]
+    then
+        break
+    fi
+
+    echo "$i"
+done
+
+
+**Output:**
+1
+2
+3
+4
+5
+
+
+### Explanation
+- The loop starts from 1 and goes up to 10.
+- When `i` becomes 6, the condition becomes true.
+- `break` immediately terminates the loop.
+- Numbers after 5 are not printed.
+
+
+## 4. Continue Statement
+
+### Definition
+The `continue` statement is used to skip the current iteration of a loop and move to the next iteration.
+
+Unlike `break`, it does not terminate the entire loop.
+
+### Syntax
+
+if [ condition ]
+then
+    continue
+fi
+
+
+### Example
+
+#!/bin/bash
+
+for i in {1..10}
+do
+    if [ "$i" -eq 10 ]
+    then
+        continue
+    fi
+
+    echo "$i"
+done
+
+
+**Output:**
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+
+### Explanation
+- The loop runs from 1 to 10.
+- When `i` becomes 10, the condition becomes true.
+- `continue` skips the current iteration.
+- The loop then completes normally.
+
+
+## 5. Difference Between Break and Continue
+
+| Break | Continue |
+|---|---|
+| Terminates the entire loop. | Skips only the current iteration. |
+| Control moves outside the loop. | Control moves to the next iteration. |
+| Used to stop a loop early. | Used to skip unwanted iterations. |
+
+
+
+
+
