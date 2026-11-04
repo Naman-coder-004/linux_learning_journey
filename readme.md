@@ -295,6 +295,12 @@ Today, I learned about file archiving, file compression, and output redirection 
 
 - Until Loop syntax and execution
 
+  ## TOPICS COVERED
+  - Functions
+  - Functions with parameters
+  - Break statement
+  - continue statement
+
 
 
 
