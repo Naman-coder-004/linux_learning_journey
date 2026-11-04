@@ -987,7 +987,7 @@ esac
 
 ### Example: Check a Day
 
-```bash
+
 echo "Enter a day:"
 read day
 
