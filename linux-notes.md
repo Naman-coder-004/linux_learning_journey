@@ -1460,6 +1460,83 @@ done
 | Used to stop a loop early. | Used to skip unwanted iterations. |
 
 
+# Linux Firewall Management (firewalld)
+
+## 1. What is a Firewall?
+
+A firewall is a security system that controls incoming and outgoing network traffic of a computer or server. It protects systems from unauthorized network access.
+
+## 2. Installing Firewall
+
+
+sudo apt update
+sudo apt install firewalld -y
+
+
+## 3. Starting Firewall
+
+
+sudo systemctl start firewalld
+
+
+## 4. Stopping Firewall
+
+
+sudo systemctl stop firewalld
+
+
+## 5. Enabling Firewall
+
+
+sudo systemctl enable firewalld
+
+
+## 6. Disabling Firewall
+
+```bash
+sudo systemctl disable firewalld
+```
+
+## 7. Checking Firewall Status
+
+
+sudo systemctl status firewalld
+
+
+## 8. Firewall Commands
+
+### Display All Firewall Rules
+
+
+sudo firewall-cmd --list-all
+
+
+## 9. Blocking SSH Service
+
+sudo firewall-cmd --permanent --zone=public --remove-service=ssh
+
+
+## 10. Blocking HTTP Service
+
+sudo firewall-cmd --permanent --zone=public --remove-service=http
+
+## 11. Reloading Firewall
+
+sudo firewall-cmd --reload
+
+## 12. Allowing SSH Service
+
+sudo firewall-cmd --permanent --zone=public --add-service=ssh
+sudo firewall-cmd --reload
+
+
+## 13. Allowing HTTP Service
+
+sudo firewall-cmd --permanent --zone=public --add-service=http
+sudo firewall-cmd --reload
+
+
+
 
 
 
