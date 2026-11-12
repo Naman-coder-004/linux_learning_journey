@@ -300,8 +300,9 @@ Today, I learned about file archiving, file compression, and output redirection 
   - Functions with parameters
   - Break statement
   - continue statement
-
-
+    
+ ## TOPICS COVERED
+- Firewall
 
 
 
